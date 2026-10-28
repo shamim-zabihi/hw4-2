@@ -283,3 +283,154 @@ body {
     line-height: 1.8;
     margin: 0;
 }
+
+.request-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background-color: #DFE5ED;
+    padding: 40px 20px;
+}
+.required-text{
+    color: #983F17;
+}
+.request-card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 30px 40px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    border: 1px solid #e2e8f0;
+}
+
+.request-title {
+    font-size: 22px;
+    color: #0f172a;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.request-alert {
+    background-color: #FFE8D6;
+    border-right: 4px solid #ea580c;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.request-alert p {
+    font-size: 14px;
+    color: #9a3412;
+    margin: 0;
+    text-align: right;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #475569;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    background-color: white;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #ea580c;
+    background-color: #fff;
+}
+
+.checkbox-group {
+    flex-direction: row; 
+    align-items: flex-start;
+    background-color: #f1f5f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.checkbox-group input {
+    margin-left: 10px;
+    margin-top: 4px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.checkbox-group label {
+    margin-bottom: 0;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.submit-btn {
+    display: block;
+    width: max-content;
+    background-color: #c2410c;
+    margin: auto 0 25px auto;
+    color: #fff;
+    border: none;
+    padding: 12px 40px ;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    justify-content: right;
+}
+.submit-btn:hover {
+    background-color: #9a3412;
+}
+
+.contact-info {
+    border-top: 1px dashed #e2e8f0;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.contact-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.contact-link {
+    font-size: 15px;
+    color: #c2410c;
+    text-decoration: underline;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: #64748b;
+    border-top: none ;
+    background-color: #eef4fa;
+    margin-top: 0px;
+}

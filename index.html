@@ -68,7 +68,7 @@
 
         </section>
         <section class="chapters-section">
-            <h2 class="section-title">فصل‌ها</h2>
+            <h2 class="section-title" id="chapters">فصل‌ها</h2>
 
             <div class="toc-wrapper">
                 <div class="toc-grid">
@@ -112,7 +112,57 @@
                 </div>
             </div>
         </section>
+
     </main>
+
+    <section class="request-section" id="request-form">
+        <div class="request-card">
+            <h2 class="request-title">درخواست راهنما</h2>
+
+            <div class="request-alert">
+                <p>سطح آشنایی فقط برای شناخت مخاطب است؛ همهٔ سطح‌ها همین نسخهٔ فارسی را درخواست می‌کنند.</p>
+            </div>
+
+            <form action="#" method="GET">
+                <div class="form-group">
+                    <label for="name">نام (اختیاری)</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">ایمیل <span class="required-text">(اجباری)</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="level">سطح آشنایی <span class="required-text">(اجباری)</span></label>
+                    <select id="level" name="level" required>
+                        <option value="" disabled selected>سطح آشنایی را انتخاب کنید</option>
+                        <option value="beginner"> تازه شروع کردم html-css</option>
+                        <option value="intermediate"> مقدماتی را دیده ام html/css </option>
+                        <option value="advanced">برای مرور می خواهم review </option>
+                    </select>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="send_email" name="send_email" required>
+                    <label for="send_email">مایلم راهنما را در ایمیل نمونهٔ واردشده دریافت کنم <span
+                            class="required-text">(اجباری)</span></label>
+                </div>
+
+                <button type="submit" class="submit-btn">ارسال درخواست آزمایشی</button>
+            </form>
+
+            <div class="contact-info">
+                <p class="contact-title">تماس</p>
+                <a href="mailto:guide@example.com" class="contact-link" dir="ltr">guide@example.com</a>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <p>راهنماخانه — نسخهٔ آموزشی</p>
+    </footer>
+
 
 </body>
 
